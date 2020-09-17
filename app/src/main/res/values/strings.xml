@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FinalLogin</string>
+
+    <string-array name="Sylhet">
+        <item>Bichanakandi</item>
+        <item>Jaflong</item>
+        <item>Ratargul</item>
+
+    </string-array>
+</resources>

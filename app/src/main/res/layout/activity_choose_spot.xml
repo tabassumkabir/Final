@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ChooseSpot">
+
+  
+    <Button
+        android:id="@+id/dhaka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dhaka"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/khulna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dhaka"
+        android:text="khulna"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        tools:ignore="DuplicateIds">
+
+    </Button>
+
+    <Button
+        android:id="@+id/chittagong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chittagong"
+        android:layout_below="@id/khulna"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/sylhet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sylhet"
+        android:textStyle="bold"
+        android:layout_below="@id/chittagong"
+        android:textSize="20dp"
+
+        tools:ignore="DuplicateIds">
+
+    </Button>
+
+</RelativeLayout>
